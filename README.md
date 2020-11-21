@@ -6,8 +6,8 @@ css were used for the user interface and responsiveness.
 ## table of content
 * [General info](#general-info)
 * [Technologies](#technologies)
+* [Setup](#setup)
 * [Contact](#contact)
-
 
 ## General info
 
@@ -21,6 +21,9 @@ css were used for the user interface and responsiveness.
   * Javacript
   * graphql
   
+## Setup
+
+ * live demo at ( https://githubrepoclonebc.netlify.app )
 
 
 ## Contact
