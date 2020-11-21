@@ -44,7 +44,7 @@ const fetchData = () => {
     method: "post",
     headers: {
       "Content-Type": "application/json",
-      Authorization: "Bearer" + " " + token,
+      Authorization: "Bearer" + " " + pass,
     },
     body: body,
   })
