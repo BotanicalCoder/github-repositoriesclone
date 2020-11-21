@@ -36,7 +36,7 @@ const fetchData = () => {
     }`,
   };
 
-  let token = "4e6b7b4e1ab0bd818a456b6905b2299aa17bce0d";
+  let token = "195a6d56615585660ed83f96e85490369b73a0c5";
 
   let body = JSON.stringify(content);
 
