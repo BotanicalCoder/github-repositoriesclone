@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>github dashboard clone</title>
+    <meta charset="utf-8">
+    <meta name="description" content="github dashboard clone">
+    <meta name="keywords" content="javascript html css github graphql">
+    <meta name='viewport' content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="./index.css"/>
+<link rel="stylesheet" href="./all.css"/>
+
+
+
+
+</head>
+<body onload="fetchData()">
+<nav class='nav'>
+<ul>
+    <li class='bar-icon' onclick="toggleDisplay()"><i class="fas fa-bars bar"></i></li>
+
+    <li><i class="fab fa-github github"></i></li>
+
+    <li class='mobile-hide'><div class="inputcontainer"> 
+        <input type="text" placeholder="Search or jump to" class="inputbox">
+            <span class="searchbutton">/</span>
+        </div>
+    </li>
+    <li class="center mobile-hide">Pull</li>
+    <li class="center mobile-hide">Issues</li>
+    <li class="center mobile-hide">Marketplace</li>
+    <li class="center mobile-hide">Explore</li>
+    
+    <li class='farleft'> <span class="lefticons"><i class="far fa-bell small bell"></span></i></li>
+    <li class=' mobile-hide'>
+            <span class="lefticons">
+                <i class="fas fa-plus small"></i>
+                <i class="fas fa-caret-down small"></i>
+            </span>
+            <span></span>
+    </li>
+    <li class=' mobile-hide'> 
+            <span class="lefticons">
+                <img src='' alt='user' id='navimgDesktop'> 
+                <i class="fas fa-caret-down small"> </i>
+            </span> 
+            <span></span> 
+    </li>
+
+                    <!--drop-down menu on mobile-->
+    <div id='drop-down' class='drop-down'>
+        <li >   <div class="inputcontainer"> 
+        <input type="text" placeholder="Search or jump to" class="inputbox">
+         <span class="searchbutton">/</span>
+       
+                </div>
+        </li>
+        <hr/>
+      <li>Dashboard</li>
+      <hr/>
+      <li>Pull requests</li>
+      <hr/>
+      <li>Issues</li>
+      <hr/>
+      <li>Marketplace</li>
+      <hr/>
+        <li>
+            Explore
+        </li>
+        <hr/>
+       <li> <span><img src='' alt='user' id='navimgMobile'></span> BotanicalCoder</li>
+       <hr/>
+       <li>Sign out</li>
+
+</div>
+ 
+</ul>    
+</nav>
+
+<main>
+
+    
+<div class="main">
+  
+<section id='userdetails'>
+    <div class='userImg'>
+        <img src='' alt='user' id='userImage'/> 
+    </div>   
+        <h3> BotanicalCoder</h3>
+        <h8> BotanicalCoder</h8>
+  
+    <div>
+    <p>I am a front end web developer passionate about learning new technologies.</p>
+    </div>
+        
+</section>
+
+
+
+<section id="repos">
+    <section id='nav2'>
+        <div>
+            <span class="mobile-hide nav2Img">BotanicalCoder</span>
+            <span>Overview</span>
+            <span>Repositories <span>29</span></span>   
+            <span>Projects</span>
+            <span class="mobile-hide">Packages</span>
+            
+            
+        </div>
+        
+    </section>
+    
+    <div class="reposContainer" id='reposContainer'>
+        <div>
+            <input type="text" placeholder="Find a repository..."/>
+     </div>
+        <div class="repoContainer" id='repoContainer'>
+            <a class="name">github-slideshow</a>
+            <p class="desc">A robot powered training repository 🤖</p>
+            <p class='lang'>HTML</p>
+        </div>
+
+        <div class="repoContainer">
+            <a class="name">example one</a>
+            <p class="desc">A robot powered training repository 🤖</p>
+            <p class='lang'>HTML</p>
+        </div>
+
+        <div class="repoContainer">
+            <a class="name">example two</a>
+            <p class="desc">A robot powered training repository 🤖</p>
+            <p class='lang'>HTML</p>
+        </div>
+
+        <div class="repoContainer">
+            <a class="name">example three</a>
+            <p class="desc">A robot powered training repository 🤖</p>
+            <p class='lang'>HTML</p>
+        </div>
+        <div class="repoContainer">
+            <a class="name">example four</a>
+            <p class="desc">A robot powered training repository 🤖</p>
+            <p class='lang'>HTML</p>
+        </div>
+    </div>
+</section>
+
+</div>
+</main>
+    <div id='sample'></div>
+<footer>
+    <ul>
+    <li>© 2020 GitHub, Inc.</li>
+    <li>Terms</li>
+    <li>Privacy</li>
+    <li>Security</li>
+    <li>Status</li>
+    <li>Help</li>
+    <li>Contact GitHub</li>
+    <li>Pricing</li>
+    <li>API</li>
+    <li>Training</li>
+    <li>Blog</li>
+    <li>About</li> 
+</ul>
+</footer>
+<script src='./index.js'></script>
+</body>
+</html>
