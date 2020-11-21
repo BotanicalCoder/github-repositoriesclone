@@ -1,4 +1,4 @@
 let endpoint = "https://api.github.com/graphql";
 
-let token = '4facaab474d7aee24534352ae8ef5ec744d08cf3';
+let pass = '2982ed9ddea19c3bf9b936846aec73e26abc5010';
 
